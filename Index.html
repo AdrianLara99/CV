@@ -3,59 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Adrian Lara CV Portfolio</title>
 </head>
 <body>
-    <header>
+    <!--===== Header ====== -->
+    <header class="header">        
         <nav>
             <div>
+                <a href="https://adrian-lara-cv-portfolio.netlify.app/#home" class="Logo">Logo</a>
+                <img src="" alt="Logo">
+            </div>
+            <div>
                 <ul>
-                    <li>
-                        <a href="#home">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#Presentacion">Descripcion</a>
-                    </li>
-                    <li>
-                        <a href="#habilidades">Conocimientos</a>
-                    </li>
-                    <li>
-                        <a href="#Portfolio">Portafolio</a>
-                    </li>
-                    <li>
-                        <a href="#home">Contacto</a>
-                    </li>
+                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#home">Inicio</a>                   </li>
+                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#presentacion">Descripcion</a>                    </li>
+                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#habilidades">Conocimientos</a>                    </li>
+                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#portfolio">Portafolio</a>                    </li>
+                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#contacto">Contacto</a>                    </li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div>
-        <a href=""></a>
-        <img src="\img\profile.jpeg" alt="Foto">
-    </div>
-    <div>
-        <h2>Adrian Lara</h2>
-        <h3>Ingeniero de Sistemas <h5>Desarrollador Full Stack – Soporte IT</h5></h3>
-    </div>
-    <section>
 
-    </section>
-    <main>
-        <div class="home">
+    <main class="main">
+
+
+        <!--===== HOME =====-->
+        <section class="sec_home" id="home">
+            <div class="home">
+                <div>
+                    <img src="\img\profile.jpeg" alt="Foto" class="Foto">
+                </div>
             
-        </div>
-        <div class="Presentacion">
+                <div class="Sub_info">
+                    <h1>Hola</h1>
+                    <h2>Soy Adrian Lara</h2>
+                    <h3>Ingeniero de Sistemas</h3>
 
-        </div>
-        <div class="Habilidades">
+                </div>
+            
+            </div>
+        </section>
 
-        </div>
-        <div class="Portafolio">
 
-        </div>
-        <div class="Contacto">
+         <!--===== Presentacion =====-->
+        <section class="S_presentacion" id="presentacion">
+            <h2>Perfil</h2>
+            <div class="Presentacion">
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum culpa officia eligendi, voluptate quod minus aspernatur facere aut veniam corporis adipisci libero nostrum vero delectus ducimus et, est deserunt.</span>
+            </div>
+            <a href="./resources/CV_Adrian_Lara_es.pdf" class="cv_down">Descargar cv</a>
+            
+        </section>    
 
-        </div>
+
+        <!--===== habilidades=====-->
+        <section class="s_habilidades" id="habilidades">
+            <h2>Habildades Tecnicas</h2>
+            
+                <div class="Habilidades">
+                    <span>Css
+                        Bootstrap
+                        Javascript
+                        ReactJS
+                        NodeJS
+                        Postman
+                        PHP
+                        MySQL
+                        Git</span>
+                    
+                </div>
+            
+        </section>
+         
+         <!--===== Portfolio =====-->
+        <section class="S_portfolio" id="portfolio">
+            <h2>Portafolio</h2>
+            <div class="Portafolio">
+
+            </div>
+        </section>
+
+        <!--===== Contacto=====-->
+        <section class="S_contacto" id="contacto">
+            <h2>Contacto</h2>
+            <div class="Contacto">
+
+            </div>
+        </section>
+        
     </main>
     <div>
         <footer>
