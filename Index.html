@@ -6,141 +6,138 @@
     <meta name="author" content="Adrian Felipe Lara Rey">
     <link rel="icon" type="image/x-icon" href="./img/portfolio-svgrepo-com.svg" class="favico_font">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Adrian Lara CV Portfolio</title>
 </head>
 
-<body>
+<body class="bg-secondary-subtle">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!--===== Header ====== -->
     
-    <header class="header">        
-        
-        <nav>
-
-            <div>
-                <a href="https://adrian-lara-cv-portfolio.netlify.app/#home" class="Logo">Logo</a>
-                <img src="" alt="Logo">
+    <header>        
+      
+        <nav class="navbar  navbar-expand-lg bg-body-tertiary fixed-top " data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://adrian-lara-cv-portfolio.netlify.app/">A.L</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://adrian-lara-cv-portfolio.netlify.app/#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://adrian-lara-cv-portfolio.netlify.app/#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://adrian-lara-cv-portfolio.netlify.app/#portfolio">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://adrian-lara-cv-portfolio.netlify.app/#contacto">Contacto</a></li> 
+                  </ul>
+                </div>
+              </div>
             </div>
-
-            <div class="nav__menu">
-                <ul class="nav_bar">
-
-                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#home">Inicio</a></li>
-                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#presentacion">Descripcion</a></li>
-                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#habilidades">Conocimientos</a></li>
-                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#portfolio">Portafolio</a></li>
-                    <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#contacto">Contacto</a></li>
-                
-                </ul>
-
-            </div>
-
-        </nav>
+          </nav>
 
     </header>
 
-    <main class="main">
+    <main class="main_box">
 
 
         <!--===== HOME =====-->
-        <section class="sec_home" id="home">
+        <section class="sec_home " id="home">
             
             <div class="home">
                 
-                <div>
-                    <img src="\img\profile.jpeg" alt="Foto" class="Foto">
+                <div class="animate__zoomIn animate__slower foto">
+                    <img src="\img\profile.jpeg" alt="Foto" class="img-fluid rounded-circle mx-auto d-block">
                 </div>
             
-                <div class="Sub_info">
+                <div class="sub_info animate__backInUp">
 
                     <h1>Hola</h1>
                     <h2>Soy Adrian Lara</h2>
                     <h3>Ingeniero de Sistemas</h3>
 
                 </div>
+
+                <div class="about">
+
+                    <p class="text animate__zoomIn animate__slower">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, laboriosam a cupiditate aliquid sequi laudantium nam. Sapiente ducimus, aliquid minus saepe delectus consequuntur, sunt illum, sint consectetur autem iusto corrupti.</p>
+                    <a href="./resources/CV_Adrian_Lara_es.pdf" class="bt_cv_down">Descargar cv</a>
             
+                
+                </div>
+                    
             </div>
 
         </section>
 
-
-         <!--===== Presentacion =====-->
-        <section class="S_presentacion" id="presentacion">
-
-            <h2>Perfil</h2>
-
-            <div class="Presentacion">
-
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolorum culpa officia eligendi, voluptate quod minus aspernatur facere aut veniam corporis adipisci libero nostrum vero delectus ducimus et, est deserunt.</span>
-            
-            </div>
-
-            <a href="./resources/CV_Adrian_Lara_es.pdf" class="bt_cv_down">Descargar cv</a>
-            
-        </section>    
-
-
         <!--===== habilidades =====-->
-        <section class="s_habilidades" id="habilidades">
-            <h2>Habildades Tecnicas</h2>
+        
+        <section class="container text-center f_skills" id="habilidades">
+            <h2 class="animate__zoomIn">Habilidades Técnicas</h2>
             
-                <div class="Habilidades">
+                <div class="align-items-center col">
 
-                    <div class="frontend_skills">
+                    <div class="col shadow p-3 mb-1 bg-body-tertiary rounded personal_skills">
 
-                        <h4>Conocimietos Frontend</h4>
+                        <h4>Conocimientos Frontend</h4>
 
-                        <span class="skills">Html</span>
-                        <span class="skills">Css</span>
-                        <span class="skills">Bootstrap</span>
-                        <span class="skills">JavaScript</span>
-                        <span class="skills">Stylus</span>
-                        <span class="skills">React</span>
+                        <span class="btn btn-secondary btn-sm skills">Html</span>
+                        <span class="btn btn-secondary btn-sm skills">Css</span>
+                        <span class="btn btn-secondary btn-sm skills">Bootstrap</span>
+                        <span class="btn btn-secondary btn-sm skills">JavaScript</span>
+                        <span class="btn btn-secondary btn-sm skills">Stylus</span>
+                        <span class="btn btn-secondary btn-sm skills">React</span>
 
                     </div>
+                    
 
                         <br>
 
-                    <div class="backend_skills">
+                    <div class=" shadow p-3 mb-1 bg-body-tertiary rounded col personal_skills">
 
                         <h4>Conocimientos Backend</h4> 
 
-                        <span class="skills">Java</span> 
-                        <span class="skills">PHP</span>
-                        <span class="skills">Laravel</span>
-                        <span class="skills">MySQL</span>
-                        <span class="skills">Apache</span>
-                        <span class="skills">Docker</span>
-                        <sapn class="skills">Github</sapn>
+                        <span class="btn btn-secondary btn-sm skills">Java</span> 
+                        <span class="btn btn-secondary btn-sm skills">PHP</span>
+                        <span class="btn btn-secondary btn-sm skills">Laravel</span>
+                        <span class="btn btn-secondary btn-sm skills">MySQL</span>
+                        <span class="btn btn-secondary btn-sm skills">Apache</span>
+                        <span class="btn btn-secondary btn-sm skills">Docker</span>
+                        <sapn class="btn btn-secondary btn-sm skills">Github</sapn>
 
                     </div>
 
                         <br>
 
-                    <div class="Dvops_skills">
+                    <div class="shadow p-3 mb-1 bg-body-tertiary rounded col personal_skills">
 
                         <h4>Conocimientos DevOps</h4> 
 
-                        <span class="skills">Power Shell</span> 
-                        <span class="skills">Python</span>
-                        <span class="skills">AWS Lambda</span>
-                        <span class="skills">Google Cloud</span>
-                        <span class="skills"></span>
+                        <span class="btn btn-secondary btn-sm skills">Power Shell</span> 
+                        <span class="btn btn-secondary btn-sm skills">Python</span>
+                        <span class="btn btn-secondary btn-sm skills">AWS Lambda</span>
+                        <span class="btn btn-secondary btn-sm skills">Google Cloud</span>
+                        <span class="btn btn-secondary btn-sm skills">Azure</span>
 
                     </div>
 
                     <br>
                     
-                    <div class="anhother_skills">
+                    <div class="shadow p-3 mb-5 bg-body-tertiary rounded personal_skills">
 
                         <h4>Conocimientos Adicionales</h4> 
 
-                        <span class="skills">Officce 365</span> 
-                        <span class="skills">Servidores Windows</span>
-                        <span class="skills">Postman</span>
-                        <span class="skills">Diagramacion Uml</span>
-                        <span class="skills">Metodologia Scrum</span>
-                        <span class="skills">AWS Basics</span>
-                        <span class="skills">Redes y Telecomunicaciones Cisco</span>
+                        <span class="btn btn-secondary btn-sm skills">Officce 365</span> 
+                        <span class="btn btn-secondary btn-sm skills">Servidores Windows</span>
+                        <span class="btn btn-secondary btn-sm skills">Postman</span>
+                        <span class="btn btn-secondary btn-sm skills">Diagramacion Uml</span>
+                        <span class="btn btn-secondary btn-sm skills">Metodologia Scrum</span>
+                        <span class="btn btn-secondary btn-sm skills">AWS Basics</span>
+                        <span class="btn btn-secondary btn-sm skills">Redes y Telecomunicaciones Cisco</span>
 
                     </div>
                     
@@ -162,7 +159,7 @@
 
                             <div class="portfolio_link">
 
-                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="">DigiTech Express
+                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block max_img">DigiTech Express
 
                                 <div class="port_links">
 
@@ -177,7 +174,7 @@
 
                             <div class="portfolio_link">
 
-                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="">Inmobiliaria
+                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block max_img">Inmobiliaria
                                 
                                 <div class="port_links">
 
@@ -192,7 +189,7 @@
 
                             <div class="">
 
-                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="">CV
+                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block max_img">CV
 
                                 <div class="port_links">
 
@@ -350,8 +347,7 @@
 
                     <ul class="nav_bar">
     
-                        <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#home">Inicio</a></li>
-                        <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#presentacion">Descripcion</a></li>
+                        <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#home">Inicio</a></li>                    
                         <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#habilidades">Conocimientos</a></li>
                         <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#portfolio">Portafolio</a></li>
                         <li class="nav_item"><a href="https://adrian-lara-cv-portfolio.netlify.app/#contacto">Contacto</a></li>
