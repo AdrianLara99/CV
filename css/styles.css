@@ -4,14 +4,21 @@
 
 }
 
+.font_sc_p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+.col_tit{
+    color: #0097A7;
+    padding: 20px;
+    font-size: 2.5em;
+}
+
 /*Header*/
 a:hover{
     text-decoration: underline;
     color: rgb(3, 153, 95);
 }
-
-
-/*Inicio*/
 
 header a{
     font-size: 3.2em;
@@ -19,6 +26,14 @@ header a{
     color: #0097A7 !important;
     
 }
+.log{
+    font-size: 1.5em !important;
+    padding-left: 25px;
+}
+
+/*Inicio*/
+
+
 
 .sec_home{
     margin: 0,auto;
@@ -35,6 +50,12 @@ header a{
     
     
 }
+.animate__slow {
+    --animate-duration: 4s !important; /* Ajusta la duración según tus necesidades */
+}
+.animate__normal{
+    --animate-duration: 2s !important; /* Ajusta la duración según tus necesidades */
+}
 
 .sub_info{
     padding-top: 20px;
@@ -47,6 +68,7 @@ header a{
 }
 
 .about{
+    font-size: 1.5em;
     color: aliceblue;
     text-align: center;
     padding-bottom: 30px;
@@ -61,27 +83,49 @@ header a{
     color: rgba(17, 50, 99, 0.822);
     padding: 1%;
 }
+.bt_cv_down:hover{
+
+    background-color: aliceblue;
+
+}
+.about p{
+    margin: 30px;
+    margin-top: 0px !important;
+}
 
 
 /*Habilidades*/
-.f_skills h2{
-    padding: 20px;
-    color: #0097A7;
-    
+
+.f_skills{
+    padding-bottom: 20px;
 }
 .btn{
-    margin: 0, auto;
-    padding: 10px;
+    margin: 2.5px 0px;
+    
 
 }
 
+.an_skills{
+    text-align: center;
+    align-content: center;
 
+}
+
+.tre_item{
+    
+
+}
+.carta{
+   border-radius: 10px;
+   background-color: aliceblue;
+   margin: 20px 10px;
+   padding: 20px;
+}
 /*Portafolio*/
+    
 
-.max_img{
 
 
-}
 
 /*contacto*/
 

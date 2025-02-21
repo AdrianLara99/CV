@@ -17,9 +17,9 @@
     
     <header>        
       
-        <nav class="navbar  navbar-expand-lg bg-body-tertiary fixed-top " data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="https://adrian-lara-cv-portfolio.netlify.app/">A.L</a>
+        <nav class="font_sc_p navbar navbar-expand-lg bg-body-tertiary fixed-top " data-bs-theme="dark">
+            <div class="container-fluid ">
+              <a class="navbar-brand log" href="https://adrian-lara-cv-portfolio.netlify.app/">A.L</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -50,11 +50,11 @@
             
             <div class="home">
                 
-                <div class="animate__zoomIn animate__slower foto">
+                <div class="foto animate__animated animate__fadeIn animate__slow">
                     <img src="\img\profile.jpeg" alt="Foto" class="img-fluid rounded-circle mx-auto d-block">
                 </div>
             
-                <div class="sub_info animate__backInUp">
+                <div class="sub_info animate__animated animate__backInUp animate__normal">
 
                     <h1>Hola</h1>
                     <h2>Soy Adrian Lara</h2>
@@ -62,9 +62,12 @@
 
                 </div>
 
-                <div class="about">
+                <div class="container about animate__animated animate__backInUp animate__normal">
 
-                    <p class="text animate__zoomIn animate__slower">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, laboriosam a cupiditate aliquid sequi laudantium nam. Sapiente ducimus, aliquid minus saepe delectus consequuntur, sunt illum, sint consectetur autem iusto corrupti.</p>
+                    <p class="text">Apasionado por la tecnología y el desarrollo de software, siempre en busca de nuevos desafíos y oportunidades para aprender y crecer profesionalmente. Tengo experiencia como Profesional de Aplicaciones de Core 
+                        Bancario, lo que me ha brindado un sólido conocimiento en análisis, diseño, 
+                        implementación y soporte de soluciones tecnológicas para el sector financiero.</p>
+                    
                     <a href="./resources/CV_Adrian_Lara_es.pdf" class="bt_cv_down">Descargar cv</a>
             
                 
@@ -76,135 +79,86 @@
 
         <!--===== habilidades =====-->
         
-        <section class="container text-center f_skills" id="habilidades">
-            <h2 class="animate__zoomIn">Habilidades Técnicas</h2>
+        <section class="animate__animated animate__fadeIn  text-center f_skills" id="habilidades">
             
-                <div class="align-items-center col">
-
-                    <div class="col shadow p-3 mb-1 bg-body-tertiary rounded personal_skills">
-
+            <h2 class="col_tit">Habilidades Técnicas</h2>
+                <div class="container cards">
+                    <div class="animate__animated animate__bounceInLeft carta shadow bg-body-tertiary rounded">
                         <h4>Conocimientos Frontend</h4>
-
-                        <span class="btn btn-secondary btn-sm skills">Html</span>
-                        <span class="btn btn-secondary btn-sm skills">Css</span>
-                        <span class="btn btn-secondary btn-sm skills">Bootstrap</span>
-                        <span class="btn btn-secondary btn-sm skills">JavaScript</span>
-                        <span class="btn btn-secondary btn-sm skills">Stylus</span>
-                        <span class="btn btn-secondary btn-sm skills">React</span>
-
+                        <span class="btn btn-secondary btn-lg skills">Html</span>
+                        <span class="btn btn-secondary btn-lg skills">Css</span>
+                        <span class="btn btn-secondary btn-lg skills">Bootstrap</span>
+                        <span class="btn btn-secondary btn-lg skills">JavaScript</span>
+                        <span class="btn btn-secondary btn-lg skills">Stylus</span>
+                        <span class="btn btn-secondary btn-lg skills">React</span>
                     </div>
-                    
-
-                        <br>
-
-                    <div class=" shadow p-3 mb-1 bg-body-tertiary rounded col personal_skills">
-
-                        <h4>Conocimientos Backend</h4> 
-
-                        <span class="btn btn-secondary btn-sm skills">Java</span> 
-                        <span class="btn btn-secondary btn-sm skills">PHP</span>
-                        <span class="btn btn-secondary btn-sm skills">Laravel</span>
-                        <span class="btn btn-secondary btn-sm skills">MySQL</span>
-                        <span class="btn btn-secondary btn-sm skills">Apache</span>
-                        <span class="btn btn-secondary btn-sm skills">Docker</span>
-                        <sapn class="btn btn-secondary btn-sm skills">Github</sapn>
-
+                    <div class="animate__animated animate__bounceInRight carta shadow bg-body-tertiary rounded">
+                        <h4>Conocimientos Backend</h4>
+                        <span class="btn btn-secondary btn-lg skills">Java</span>
+                        <span class="btn btn-secondary btn-lg skills">PHP</span>
+                        <span class="btn btn-secondary btn-lg skills">Laravel</span>
+                        <span class="btn btn-secondary btn-lg skills">MySQL</span>
+                        <span class="btn btn-secondary btn-lg skills">Apache</span>
+                        <span class="btn btn-secondary btn-lg skills">Docker</span>
+                        <span class="btn btn-secondary btn-lg skills">Github</span>
                     </div>
-
-                        <br>
-
-                    <div class="shadow p-3 mb-1 bg-body-tertiary rounded col personal_skills">
-
-                        <h4>Conocimientos DevOps</h4> 
-
-                        <span class="btn btn-secondary btn-sm skills">Power Shell</span> 
-                        <span class="btn btn-secondary btn-sm skills">Python</span>
-                        <span class="btn btn-secondary btn-sm skills">AWS Lambda</span>
-                        <span class="btn btn-secondary btn-sm skills">Google Cloud</span>
-                        <span class="btn btn-secondary btn-sm skills">Azure</span>
-
+                    <div class="animate__animated animate__bounceInLeft carta shadow bg-body-tertiary rounded">
+                        <h4>Conocimientos DevOps</h4>
+                        <span class="btn btn-secondary btn-lg skills">Power Shell</span>
+                        <span class="btn btn-secondary btn-lg skills">Python</span>
+                        <span class="btn btn-secondary btn-lg skills">AWS Lambda</span>
+                        <span class="btn btn-secondary btn-lg skills">Google Cloud</span>
+                        <span class="btn btn-secondary btn-lg skills">Azure</span>
                     </div>
-
-                    <br>
-                    
-                    <div class="shadow p-3 mb-5 bg-body-tertiary rounded personal_skills">
-
-                        <h4>Conocimientos Adicionales</h4> 
-
-                        <span class="btn btn-secondary btn-sm skills">Officce 365</span> 
-                        <span class="btn btn-secondary btn-sm skills">Servidores Windows</span>
-                        <span class="btn btn-secondary btn-sm skills">Postman</span>
-                        <span class="btn btn-secondary btn-sm skills">Diagramacion Uml</span>
-                        <span class="btn btn-secondary btn-sm skills">Metodologia Scrum</span>
-                        <span class="btn btn-secondary btn-sm skills">AWS Basics</span>
-                        <span class="btn btn-secondary btn-sm skills">Redes y Telecomunicaciones Cisco</span>
-
-                    </div>
-                    
+                    <div class="animate__animated animate__bounceInRight carta shadow bg-body-tertiary rounded">                  
+                        <h4>Conocimientos Adicionales</h4>
+                        <span class="btn btn-secondary btn-lg skills">Officce 365</span>
+                        <span class="btn btn-secondary btn-lg skills">Servidores Windows</span>
+                        <span class="btn btn-secondary btn-lg skills">Postman</span>
+                        <span class="btn btn-secondary btn-lg skills">Diagramacion Uml</span>
+                        <span class="btn btn-secondary btn-lg skills">Metodologia Scrum</span>
+                        <span class="btn btn-secondary btn-lg skills">AWS Basics</span>
+                        <span class="btn btn-secondary btn-lg skills">Redes y Telecomunicaciones Cisco</span>
+                    </div>                    
                 </div>
-            
+                
+                                         
         </section>
          
          <!--===== Portfolio =====-->
 
-        <section class="S_portfolio" id="portfolio">
-
-            <h2>Portafolio</h2>
-            
+        <section class="text-center s_portfolio" id="portfolio">
+            <h2 class="col_tit">Portafolio</h2>            
                 <div class="Main_portfolio">
-
-                    <div class="Estaticas content">
-
-                        <h4>Paginas Web Estaticas</h4>
-
-                            <div class="portfolio_link">
-
-                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block max_img">DigiTech Express
-
+                    <div class="estaticas content animate__animated animate__bounceInUp ">
+                        <h3>Paginas Web Estaticas</h3>                        
+                            <div class="portfolio_link carta animate__animated animate__bounceIn">
+                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block max_img">                                    
+                                    <h2 class="col_tit">DigiTech Express</h2> 
                                 <div class="port_links">
-
-                                    <a href="#">Ver en linea</a>
-                                    <a href="https://github.com/AdrianLara99/DigiTech-Express">Ver Codigo</a>
-
+                                    <a class="btn btn-secondary btn-lg" href="#">Ver en línea</a>
+                                    <a class="btn btn-secondary btn-lg" href="https://github.com/AdrianLara99/DigiTech-Express">Ver Código </a>
                                 </div>
-
-                            </div>
-                            
-                            <br>
-
-                            <div class="portfolio_link">
-
-                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block max_img">Inmobiliaria
-                                
+                            </div>                     
+                            <div class="portfolio_link carta animate__animated animate__bounceIn">
+                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block max_img">
+                                    <h2 class="col_tit">Inmobiliaria</h2>                                 
                                 <div class="port_links">
-
-                                    <a href="https://inmobiliaria-front.netlify.app/">Ver en Linea</a>
-                                    <a href="https://github.com/AdrianLara99/Inmobiliaria">Ver Codigo</a>
-                                
-                                </div>
-                                
+                                    <a class="btn btn-secondary btn-lg" href="https://inmobiliaria-front.netlify.app/">Ver en línea</a>
+                                    <a  class="btn btn-secondary btn-lg"href="https://github.com/AdrianLara99/Inmobiliaria">Ver Código </a>                                
+                                </div>                                
                             </div>
-
-                            <br>
-
-                            <div class="">
-
-                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block max_img">CV
-
+                            <div class="portfolio_link carta animate__animated animate__bounceIn">
+                                <img src="./resources/Images_portfolio/Inmobiliaria.jpg" alt="" class="img-fluid img-thumbnail rounded mx-auto d-block max_img">
+                                    <h2 class="col_tit">Portafolio</h2> 
                                 <div class="port_links">
-
-                                    <a href="https://adrian-lara-cv-portfolio.netlify.app/">Ver en Linea</a>
-                                    <a href="https://github.com/AdrianLara99/CV">Ver codigo</a>
-                               
+                                    <a class="btn btn-secondary btn-lg" href="https://adrian-lara-cv-portfolio.netlify.app/">Ver en línea</a>
+                                    <a class="btn btn-secondary btn-lg" href="https://github.com/AdrianLara99/CV">Ver Código </a>                               
                                 </div>
-
-                            </div>
-                        
-                        
-
+                            </div>       
                     </div>
 
-                    <div class="aplicativos content">
+                    <div class="aplicativos content animate__animated animate__bounceInRight">
 
                         <h4>Aplicativos Web</h4>
 
@@ -214,8 +168,8 @@
 
                                 <div class="port_links">
 
-                                    <a href="">Ver Imagenes</a>
-                                    <a href="">Ver Codigo</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Imágenes</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Código </a>
 
                                 </div>
 
@@ -229,8 +183,8 @@
 
                                 <div class="port_links">
 
-                                    <a href="">Ver Imagenes</a>
-                                    <a href="">Ver Codigo</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Imágenes</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Código </a>
 
                                 </div>
 
@@ -244,8 +198,8 @@
 
                                 <div class="port_links">
 
-                                    <a href="">Ver Imagenes</a>
-                                    <a href="https://github.com/AdrianLara99/Aplicacion-Laravel">Ver Codigo</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Imágenes</a>
+                                    <a class="btn btn-secondary btn-lg" href="https://github.com/AdrianLara99/Aplicacion-Laravel">Ver Código </a>
 
                                 </div>
 
@@ -263,8 +217,8 @@
 
                                 <div class="port_links">
 
-                                    <a href="">Ver Imagenes</a>
-                                    <a href="">Ver Codigo</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Imágenes</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Código </a>
 
                                 </div>
 
@@ -278,8 +232,8 @@
 
                                 <div class="port_links">
 
-                                    <a href="">Ver Imagenes</a>
-                                    <a href="">Ver Codigo</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Imágenes</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Código </a>
 
                                 </div>
 
@@ -293,8 +247,8 @@
 
                                 <div class="port_links">
 
-                                    <a href="">Ver Imagenes</a>
-                                    <a href="">Ver Codigo</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Imágenes</a>
+                                    <a class="btn btn-secondary btn-lg" href="">Ver Código </a>
 
                                 </div>
 
@@ -363,7 +317,31 @@
         </div>
 
     </section>
-
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const observerOptions = {
+                threshold: 0.1
+            };
+    
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate__animated', 'animate__fadeIn');
+                        entry.target.classList.remove('animate__fadeOut');
+                    } else {
+                        entry.target.classList.add('animate__animated', 'animate__fadeOut');
+                        entry.target.classList.remove('animate__fadeIn');
+                    }
+                });
+            }, observerOptions);
+    
+            const elementsToAnimate = document.querySelectorAll('.foto, .sub_info, .about, .carta, .portfolio_link');
+            elementsToAnimate.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
 </body>
 
     
