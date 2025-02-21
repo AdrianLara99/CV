@@ -112,7 +112,8 @@ header a{
 }
 
 .tre_item{
-    
+    display: flex;
+    justify-content: space-between;
 
 }
 .carta{
@@ -122,14 +123,83 @@ header a{
    padding: 20px;
 }
 /*Portafolio*/
+.main_portfolio{
     
+    background-color: #2B3035;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
 
+.content{
+
+    
+}
 
 
 
 /*contacto*/
+.s_contacto{
+    text-align: center;
+    padding: 20px;    
+    align-items: center;
+    color: #2B3035;
+    
+}
+.s_contacto h3{
+    
+    font-size: 1.8em;
+    padding: 5px;
+    padding-bottom: 10px;
+    color: #5a666d;
+}
 
-
-
+.s_contacto a{
+    text-decoration: none;
+    font-size: 2.5em;
+    padding: 30px;
+    color: #2B3035;
+}
+.s_contacto a:hover{
+    color: #0097A7;
+}
 
 /*footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1d20;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: #0097A7;
+    padding: 10px;
+}
+.footer p{
+    color: #5a666d;
+}
+.footer a:hover{
+    color: #90A4AE;
+}
+.footer ul{
+    list-style: none;
+}
+.footer .nav_bar{
+    display: flex;;
+    justify-content: space-between;
+    
+    
+}
+.footer .nav_menu{
+    
+}
+.cp{
+
+    align-self: self-end;
+}
