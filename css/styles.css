@@ -81,8 +81,10 @@ header a{
     background-color: #90A4AE;
     text-decoration: none;
     color: rgba(17, 50, 99, 0.822);
-    padding: 1%;
+    padding: 10px;    
+    text-align: center;
 }
+    
 .bt_cv_down:hover{
 
     background-color: aliceblue;
