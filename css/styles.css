@@ -120,6 +120,21 @@ header a{
    margin: 20px 10px;
    padding: 20px;
 }
+   
+
+.carta p{    
+    color: #2B3035;
+    text-align: center;
+    display: none;
+    transition: opacity 500ms ease-in-out; 
+    opacity: 0;
+}
+.carta:hover p {
+    cursor: pointer;
+    display: block;
+    opacity: 1;
+}
+
 /*Portafolio*/
 .main_portfolio{
     
